@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 const connection = mysql.createPool({
 
-    host: 'robustoms.cluster-cm5yjeedny8s.us-east-1.rds.amazonaws.com',
+    host: '',
     port: 3306,
-    user: 'vijay',
+    user: '',
     password: '',
     database: 'robust_oms',
     connectionLimit: 10,
